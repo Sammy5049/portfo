@@ -1,0 +1,46 @@
+.sidebar-section {
+ display: flex;
+ background-color: rgb(15, 14, 14);
+ z-index: 999;
+}
+
+.sidebar {
+ height: 100vh;
+ width: 85px;
+ background-color: rgb(42, 41, 41);
+ position: fixed;
+ z-index: 999;
+}
+
+.container-fluid {
+ padding-left: 0px !important;
+ padding-right: 0px !important;
+ overflow: hidden;
+}
+
+.display-icon {
+ display: flex;
+ justify-content: right;
+ align-items: right;
+ cursor: pointer;
+}
+
+.display-icon p svg {
+ background-color: rgb(229, 218, 218);
+ margin-top: 50px;
+ padding: 5px;
+ border-radius: 5px;
+
+}
+
+.expandicon {
+ width: 170px;
+}
+
+
+
+@media (max-width:1000px) {
+ .sidebar {
+  display: none;
+ }
+}

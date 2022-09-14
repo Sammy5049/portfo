@@ -1,0 +1,124 @@
+.tech-section {
+ margin-top: 20px;
+ height: auto;
+ margin-bottom: 30px;
+
+}
+
+#dark .techdetail-section {
+ 
+  background-color: black;
+  color: white;
+}
+
+#dark .techdetail-section:hover {
+
+  background-color: rgb(11, 110, 197);
+  color: white;
+}
+#dark .techdetail-section-active {
+  background-color: rgb(11, 110, 197);
+}
+
+#dark .techstack-title {
+  color: white;
+}
+
+#dark .load-more {
+  background-color: rgb(11, 110, 197);
+}
+#dark .load-more:hover {
+  background-color: black;
+  color: white;
+
+}
+
+.techstack-title h4{
+ text-align: center;
+}
+
+.techdetail-section p{
+text-align: center;
+padding-top: 30px;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.techdetail-section {
+ padding: 10px;
+ color: black;
+ margin-top: 50px;
+ box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  -webkit-transition: all 1s 0s ease-in-out;
+    -moz-transition: all 1s 0s ease-in-out;
+    -o-transition: all 1s 0s ease-in-out;
+    transition: all 1s 0s ease-in-out;
+    cursor: pointer;
+}
+
+.techdetail-section:hover {
+background-color: rgb(190, 65, 19);
+color: white;
+ box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+
+}
+
+.techdetail-section-active {
+  background-color: tomato;
+  color: white;
+}
+
+.tech-number {
+ display: block;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+ height: 50px;
+ width: 50px;
+ border-radius: 90px;
+ color: white;
+ line-height: 50px;
+ margin: 0 auto;
+ margin-top: -35px;
+}
+
+.load-more {
+ width: 120px;
+ height: 40px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ color: hsl(0, 0%, 100%);
+ margin: 25px auto 60px auto;
+ background-color: tomato;
+ cursor: pointer;
+ border-radius: 10px;
+ padding: 10px 8px;
+ text-align: center;
+font-weight: 300;
+ font-size: 18px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+-webkit-transition: all 1s 0s ease-in-out;
+  -moz-transition: all 1s 0s ease-in-out;
+  -o-transition: all 1s 0s ease-in-out;
+  transition: all 1s 0s ease-in-out;
+
+}
+
+.load-more:hover {
+ color: tomato;
+ background-color: azure;
+ font-weight: 300;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ transition-duration: 2s;
+ border: 1px solid orange;
+}
+
+.no-more-load {
+visibility: hidden;
+}

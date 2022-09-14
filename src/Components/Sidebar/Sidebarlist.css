@@ -1,0 +1,68 @@
+.sidebar-profile-pic img {
+ height: 120px;
+ width: 120px;
+ margin-top: 10px;
+ border-radius: 90px;
+ display: flex;
+ vertical-align: middle;
+ margin: 0 auto;
+ object-fit: cover;
+ border: 2px solid yellow;
+ 
+}
+
+.meee {
+  z-index: 999;
+}
+
+
+.navbar-items ul li {
+color: white;
+list-style-type: none;
+cursor: pointer;
+margin-top: 30px;
+display: flex;
+align-items: center;
+
+}
+
+.nav-items a{
+  text-decoration: none;
+ 
+  
+}
+
+.list-nav-items .active {
+    border-left: 2px solid yellow;
+    
+}
+
+.nav-items .active {
+  border-left: 2px solid yellow;
+   
+    color: yellowgreen;
+}
+
+.navbar-items ul li svg {
+ margin-left: 10px;
+ margin-right: 5px;
+}
+
+.navbar-items-onlyicons ul li{
+ margin-top: 30px;
+
+ cursor: pointer;
+ list-style-type: none;
+}
+
+.navbar-items-onlyicons ul li svg {
+  margin-left: 10px;
+}
+
+
+
+
+.list-nav-items {
+  align-items: center;
+    display: flex;
+}

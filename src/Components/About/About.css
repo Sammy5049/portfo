@@ -1,0 +1,41 @@
+.about-section {
+ box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 9px 11px 8px -7px rgba(0, 0, 0, 0.88);
+  padding: 50px;
+  margin-top: 50px;
+}
+
+#dark .about-section {
+  background-color: #38004C;
+  color: white;
+  box-shadow: none;
+  box-shadow: -6px 11px 5px -4px rgba(70, 67, 67, 0.42);
+    -webkit-box-shadow: -6px 11px 5px -4px rgba(107, 101, 101, 0.42);
+    -moz-box-shadow: -6px 11px 5px -4px rgba(101, 93, 93, 0.42);
+}
+
+
+
+.about-image img{
+ width: 300px;
+ height: 300px;
+ border-radius: 190px;
+ object-fit: cover;
+ border: 5px solid yellowgreen;
+
+}
+
+.about-tittle h2{
+ color: rgb(85, 197, 20);
+ text-align: center;
+}
+
+.about-border {
+ display: block;
+ width: 70px;
+ height: 3px;
+ margin: 1px auto;
+ background-color: yellowgreen;
+
+}
